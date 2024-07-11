@@ -27,6 +27,19 @@ To apply configuration, run
 
 (Sudo may be needed to allow writing to files not owned by the current user)
 
+
+## Setup
+
+To set up on a new machine, go to a folder to hold SysConfig
+(I've been using ~/Dropbox/Dev, but that's just what works for me)
+
+```
+git clone https://github.com/bradbbrown/SysConfig.git SysConfig
+cd SysConfig
+./apply.sh
+```
+
+
 ## Use case
 
 This is intended to be used with a git repo across computers.  If we change
