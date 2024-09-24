@@ -86,7 +86,8 @@ alias vim='nvim'
 alias cat='bat --theme ansi'
 alias bore='bat --theme ansi'
 alias fzf='fzf -e -i'
-alias ls='ls -FGho,'
+alias ls='eza -l --no-quotes'
+# alias ls='ls -FGho,'
 
 
 eval "$(pyenv init -)"
